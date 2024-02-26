@@ -32,5 +32,12 @@ body {
 	color-scheme: light dark;
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: black;
+		color: white;
+	}
+}
+
 /* STYLES */
 /* Write your CSS below */
